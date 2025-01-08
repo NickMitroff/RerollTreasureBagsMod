@@ -1,0 +1,3 @@
+displayName = Reroll Treasure Bags
+author = NIIIIIIIICO
+version = 0.1

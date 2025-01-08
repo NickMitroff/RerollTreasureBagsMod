@@ -1,0 +1,10 @@
+Sometimes, you don't want to kill a boss more than once to obtain a rare drop. The Reroll Treasure Bags mod allows you to peek at the items dropped from a boss's Treasure Bag, and open the Treasure Bag as many times as you want.
+
+To use the mod, first set a keybind to enable the custom UI. With the UI enabled, opening a Treasure Bag will cause the items to show up in the UI instead of your inventory, and the Treasure Bag won't be consumed.
+Once you get the items you want, use the same keybind to close the UI. This will consume the Treasure Bag and give you the items.
+
+The Treasure Bag must be in your inventory when you close the UI. If you drop the Treasure Bag or are "holding" it with your mouse, closing the UI won't give you the items and it won't consume the Treasure Bag.
+
+You can also configure the mod to work with all openable bag items, not just Treasure Bags! This is very overpowered, so use caution.
+
+If there are more than 60 items in the same Treasure Bag, only the first 60 will be dropped, but this is unlikely to happen.

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Qs8E78sDqpc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Nick Mitroff\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\RerollTreasureBags\\RerollTreasureBags.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Nick Mitroff\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}

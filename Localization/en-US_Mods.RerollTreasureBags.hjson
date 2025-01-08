@@ -1,0 +1,17 @@
+Keybinds.ShowTreasureBagPreview.DisplayName: Show Treasure Bag Preview
+
+Configs: {
+	RerollTreasureBagsConfig: {
+		DisplayName: Reroll Treasure Bags Config
+		Headers.Configuration: Configuration Header
+
+		rerollAllBagItems: {
+			Label: Allow Rerolling All Bag Items
+			Tooltip:
+				'''
+				Enables reroll functionality for ALL openable bag items, such as Crates, Presents, Goodie Bags, and Oysters.
+				This is very overpowered and not recommended for normal play.
+				'''
+		}
+	}
+}
