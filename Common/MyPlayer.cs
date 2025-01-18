@@ -10,6 +10,7 @@ using Terraria.ModLoader;
 using Terraria.ModLoader.IO;
 using Terraria.WorldBuilding;
 using UltimateMining.SkillTree;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace RerollTreasureBags.Common
 {
@@ -38,9 +39,11 @@ namespace RerollTreasureBags.Common
                             newItem.type = item.type;
                             newItem.stack = item.stack;
                             newItem.Prefix(item.prefix);
-                            //newItem.prefix = item.prefix;
-
-                            Item.NewItem(Player.GetSource_FromThis(), Player.Center, newItem);
+                            int index = Item.NewItem(Player.GetSource_ItemUse(lastBagUsed), Player.Center, newItem);
+                            if (Main.netMode == NetmodeID.MultiplayerClient)
+                            {
+                                NetMessage.SendData(MessageID.SyncItem, -1, -1, null, index, 1f);
+                            }
                         }
                         Item bag = Player.inventory[Player.FindItem(lastBagUsed.netID)];
                         bag.stack--;
